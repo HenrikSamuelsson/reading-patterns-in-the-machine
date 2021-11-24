@@ -8,6 +8,7 @@ DIP = Dependency Inversion Principle
 FSM = Finite State Machine  
 ISP = Interface Segregation Principle  
 LSP = Liskov Substitution Principle  
+LSSSI = Layers Strategic Semantics Skinny Interfaces
 OCP = Open Closed Principle
 SOLID = SRP OCP LSP ISP DIP  
 SRP = Single Responsibility Principle  
