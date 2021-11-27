@@ -5,10 +5,15 @@ Notes and material related to reading the book Patterns in the Machine written b
 ## Abbreviations
 
 DIP = Dependency Inversion Principle  
+CPU = Central Processing Unit  
 FSM = Finite State Machine  
+IC = Integrated Circuit  
+IPC = Inter-Process Communication
 ISP = Interface Segregation Principle  
+ITC = Inter-Thread Communication
 LSP = Liskov Substitution Principle  
-LSSSI = Layers Strategic Semantics Skinny Interfaces
-OCP = Open Closed Principle
+LSSSI = Layers Strategic Semantics Skinny Interfaces  
+MCU =  Micro Controller Unit  
+OCP = Open Closed Principle  
 SOLID = SRP OCP LSP ISP DIP  
 SRP = Single Responsibility Principle  
