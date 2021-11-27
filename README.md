@@ -15,5 +15,6 @@ LSP = Liskov Substitution Principle
 LSSSI = Layers Strategic Semantics Skinny Interfaces  
 MCU =  Micro Controller Unit  
 OCP = Open Closed Principle  
+OSAL = Operating System Abstraction Layer  
 SOLID = SRP OCP LSP ISP DIP  
 SRP = Single Responsibility Principle  
