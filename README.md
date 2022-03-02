@@ -4,9 +4,9 @@ Notes and material related to reading the book Patterns in the Machine written b
 
 ## Abbreviations
 
-DIP = Dependency Inversion Principle  
 CI = Continuos Integration  
 CPU = Central Processing Unit  
+DIP = Dependency Inversion Principle  
 FSM = Finite State Machine  
 IC = Integrated Circuit  
 IPC = Inter-Process Communication
