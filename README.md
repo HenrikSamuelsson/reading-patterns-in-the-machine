@@ -4,7 +4,19 @@ Notes and material related to reading the book Patterns in the Machine written b
 
 ## Chapter 1 Introduction
 
-The book as a whole is about software development for embedded systems. This type of software is often done in an old fashioned way compared to other flavours of software such as web development. Embedded software development do come with some unique type of challenges the book aims to resolve some of these challenges.
+The book as a whole is about software development for embedded systems, and the goal of the book is to present strategies for ways of working in this field.
+
+The book is at an intermediate to advanced level, it is assumed that the reader can already read and write C and C++ code and have been involved in one or more bigger project.
+
+Embedded software development is often done in a more primitive way compared to other flavours of software, such as web development, it does not have to be like this. Embedded software development do come with some unique type of challenges the book aims to resolve some of these challenges.
+
+Two categories of best practices:
+
+- Tactical; which is about design and construction of individual modules
+
+- Strategic; the bigger picture, how features can be added and how modules work together
+
+There is no clear divider what is a strategic and tactical practice but in general so are tactical practices at a low level i.e. something close to the actual source code, ond strategic are high level and can be more abstract.
 
 ## Abbreviations
 
