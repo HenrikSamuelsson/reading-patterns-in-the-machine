@@ -10,7 +10,7 @@ The book is at an intermediate to advanced level, it is assumed that the reader 
 
 Embedded software development is often done in a more primitive way compared to other flavours of software, such as web development, it does not have to be like this. Embedded software development do come with some unique type of challenges the book aims to resolve some of these challenges.
 
-Two categories of best practices:
+Two different categories of best practices are handled in the book:
 
 - Tactical; which is about design and construction of individual modules
 
