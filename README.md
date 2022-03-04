@@ -6,19 +6,23 @@ Notes and material related to reading the book Patterns in the Machine written b
 
 The book as a whole is about software development for embedded systems, and the goal of the book is to present good strategies and ways of working in this field.
 
+The complete package of practices and methodologies presented in the book is by the authors given the name Patterns In The Machine (PIM). Patterns can maybe be thought of as that the practices can, and should, be reused for every new project and the in the machine part refers to embedded systems platform.
+
 The book is at an intermediate to advanced level, it is assumed that the reader can already read and write code, ideally C and C++ code, and have been involved in one or more team projects.
 
 Embedded software development is often done in a more primitive way compared to other flavours of software, such as web development, it does not have to be like this. Embedded software development do come with some unique type of challenges the book aims to resolve some of these challenges.
 
 Two different categories of best practices are handled in the book:
 
-- Tactical; which is about design and construction of individual modules
+- Tactical; about design and construction of individual modules
 
 - Strategic; the bigger picture, how features can be added and how modules work together, how to test.
 
-There is no clear divider what is a strategic and tactical practice but in general so are tactical practices at a low level i.e. something close to the actual source code, and strategic are high level and can hence be more abstract.
+There is no clear divider between strategic and tactical practice, mane practices belongs to both sides, but in general so are tactical practices things that are non-optional and at a low level i.e. something close to the actual source code, and strategic practices are often more high level and hence more abstract.
 
-It is easy to fall into the trap and only focus on the tactical best practices resulting in poor quality and rigid software that is hard maintain and add new features to.
+It is easy to fall into the trap to only focus on the tactical best practices and neglect the strategic best practices, resulting in poor quality and rigid software that is hard maintain and add new features to.
+
+## Chapter 2 Core Concepts
 
 ## Abbreviations
 
