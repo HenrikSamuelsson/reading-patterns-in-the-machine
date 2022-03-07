@@ -40,6 +40,21 @@ The PIM core concepts are introduced in chapter 2:
 
 - Documentation, examples of documentation are software development plan, software architecture, software detailed design, best practices, source code documentation and then particularly for the modules public interfaces
 
+## Chapter 3 Design Theory for Embedded Programming
+
+Discusses existing proven good rules of programming.
+
+Firstly the five principles known by the abbreviation SOLID.
+
+### Single Responsibility Principle
+
+> Definition: Single Responsibility Principle  
+> There should never be more than one reason for a class to change.
+
+This principle can be adhered to by having a layered architecture to separate the responsibilities. For example if the receive data this can be split into three layers. The lowest layer can receive individual bytes until a known number of bytes have arrived, and then signal to the middle layer. The middle layer is responsible for checking up on the validity by controlling a check sum, if this check passes so is the top layer signaled. The top layer handles what actual action to take based on the data content, for example order that a heather is to be turned on.
+
+Another strategy to follow this principle is to in general keep elements small, this holds for everything from module level down to function level. Neither modules nor functions shall do many things.
+
 ## Abbreviations
 
 CI = Continuos Integration  
