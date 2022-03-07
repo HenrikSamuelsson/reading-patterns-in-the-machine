@@ -18,11 +18,27 @@ Two different categories of best practices are handled in the book:
 
 - Strategic; the bigger picture, how features can be added and how modules work together, how to test.
 
-There is no clear divider between strategic and tactical practice, mane practices belongs to both sides, but in general so are tactical practices things that are non-optional and at a low level i.e. something close to the actual source code, and strategic practices are often more high level and hence more abstract.
+There is no clear divider between strategic and tactical practice, many practices belongs to both sides, but in general so are tactical practices things that are non-optional and at a low level i.e. something close to the actual source code, and strategic practices are often more high level and hence more abstract.
 
 It is easy to fall into the trap to only focus on the tactical best practices and neglect the strategic best practices, resulting in poor quality and rigid software that is hard maintain and add new features to.
 
 ## Chapter 2 Core Concepts
+
+The PIM core concepts are introduced in chapter 2:
+
+- Software architecture, high level planning to enable all parts to work together
+
+- Automated unit testing, provides confidence that new features do not break existing features, most part of an embedded system can be unit tested if making a little effort
+
+- Functional simulator, the use of an ordinary PC for initial development before the hardware for the actual embedded platform have arrived
+
+- Continuous Integration, frequent integration of changes into the main branch with automated builds and tests to have short feedback loops
+
+- Data model, two modules shall not communicate directly instead so shall one write to a data model and the other read from this data model
+
+- Finite State Machines, a good tool for handling the asynchronous communication often occurring in embedded systems
+
+- Documentation, examples of documentation are software development plan, software architecture, software detailed design, best practices, source code documentation and then particularly for the modules public interfaces
 
 ## Abbreviations
 
@@ -40,6 +56,8 @@ MCU = Micro Controller Unit
 OCP = Open Closed Principle  
 OSAL = Operating System Abstraction Layer  
 PIM = Patterns In the Machine  
+SA = Software Architecture  
 SCM = Software Configuration Management  
+SDP = Software Development Plan  
 SOLID = SRP OCP LSP ISP DIP  
 SRP = Single Responsibility Principle  
