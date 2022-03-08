@@ -72,7 +72,7 @@ Strategies to be used to conform to the open-closed principle are:
 
 - Model points in a data model for interchanging data instead of direct communication between modules
 
-- Introduce abstract interfaces and have the module implement these 
+- Introduce abstract interfaces and have the module implement these with purpose to hide the low level implementation details from other modules.
 
 ## Abbreviations
 
