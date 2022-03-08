@@ -49,11 +49,30 @@ Firstly the five principles known by the abbreviation SOLID.
 ### Single Responsibility Principle
 
 > Definition: Single Responsibility Principle  
-> There should never be more than one reason for a class to change.
+> > There should never be more than one reason for a class to change.
 
-This principle can be adhered to by having a layered architecture to separate the responsibilities. For example if the receive data this can be split into three layers. The lowest layer can receive individual bytes until a known number of bytes have arrived, and then signal to the middle layer. The middle layer is responsible for checking up on the validity by controlling a check sum, if this check passes so is the top layer signaled. The top layer handles what actual action to take based on the data content, for example order that a heather is to be turned on.
+This principle can be adhered to by having a layered architecture to separate the responsibilities.
 
-Another strategy to follow this principle is to in general keep elements small, this holds for everything from module level down to function level. Neither modules nor functions shall do many things.
+An example of an layered architecture to handle receiving of serial data can be to split this into three layers. The lowest layer handles receive of individual bytes until a known number of needed bytes have arrived, and then signal to the middle layer. The middle layer is responsible for checking up on the data validity by controlling a check sum that is passed along with the data, if this check passes so is the top layer signaled. The top layer handles what actual action to take based on the data content, for example order that a heather is to be turned on or whatever the application actually is designed to do.
+
+Another strategy to follow the Single Responsibility Principle is to in general keep entities small, this holds for everything from module level down to function level. Neither modules nor functions shall do many things.
+
+### Open-Closed Principle
+
+> Definition: Open-closed principle
+> > Software entities should be open for extension, but closed for modification.
+
+The goal of the open-closed principle is to be able to extend or change entities of the system without need to rework and retest the entire system.
+
+An concrete example would be to be able to change to a new type of non-volatile memory with minimal effort.
+
+Strategies to be used to conform to the open-closed principle are:
+
+- The preprocessor directive ifndef, that enables future extension using compile time binding
+
+- Model points in a data model for interchanging data instead of direct communication between modules
+
+- Introduce abstract interfaces and have the module implement these 
 
 ## Abbreviations
 
