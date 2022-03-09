@@ -48,7 +48,7 @@ Firstly the five principles known by the abbreviation SOLID.
 
 ### Single Responsibility Principle
 
-> Definition: Single Responsibility Principle  
+> Definition: Single Responsibility Principle (SRR)
 > > There should never be more than one reason for a class to change.
 
 This principle can be adhered to by having a layered architecture to separate the responsibilities.
@@ -59,7 +59,7 @@ Another strategy to follow the Single Responsibility Principle is to in general 
 
 ### Open-Closed Principle
 
-> Definition: Open-closed principle
+> Definition: Open-closed principle (OCP)
 > > Software entities should be open for extension, but closed for modification.
 
 The goal of the open-closed principle is to be able to extend or change entities of the system without need to rework and retest the entire system.
@@ -73,6 +73,23 @@ Strategies to be used to conform to the open-closed principle are:
 - Model points in a data model for interchanging data instead of direct communication between modules
 
 - Introduce abstract interfaces and have the module implement these with purpose to hide the low level implementation details from other modules.
+
+### Liskov Substitution Principle (LSP)
+
+> Definition: Liskov Substitution Principle
+> > Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.
+
+LSP can also be stated as:
+
+> All implementations of an abstract interface are required to fully implement of the semantics of the interface definition.
+
+The compiler will only partly help out in verification of the LSP by checking the interface signature correctness. Many other things are up to the developers to ensure, such as:
+
+- Is everything initiated and up and running so a method can now be called
+
+- How to clean up and recover from eventual error
+
+- Management of dynamically allocated memory
 
 ## Abbreviations
 
