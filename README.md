@@ -91,6 +91,11 @@ The compiler will only partly help out in verification of the LSP by checking th
 
 - Management of dynamically allocated memory
 
+### Interface Segregation Principle
+
+> Definition: Interface Segregation Principle (ISP)  
+> > Clients should not be forced to depend upon interfaces that they do not use.
+
 ## Abbreviations
 
 CI = Continuos Integration  
