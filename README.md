@@ -96,6 +96,10 @@ The compiler will only partly help out in verification of the LSP by checking th
 > Definition: Interface Segregation Principle (ISP)  
 > > Clients should not be forced to depend upon interfaces that they do not use.
 
+Avoid monster interface that does everything. Prefer introducing multiple, smaller interfaces that target specific usage models or use cases.
+
+Say when defining the interfaces to the HAL and there are multiple communications lines into to the system: I2C, UART, SPI, then each of these should have it's own interface. The same goes for services provided by an eventual RTOS such as thread and mutex support, split these as well into different interfaces.
+
 ### Dependency Inversion Principle
 
 > Definition: Dependency Inversion Principle (DIP)  
@@ -121,6 +125,7 @@ CI = Continuos Integration
 CPU = Central Processing Unit  
 DIP = Dependency Inversion Principle  
 FSM = Finite State Machine  
+HAL = Hardware Abstraction Layer
 IC = Integrated Circuit  
 IPC = Inter-Process Communication  
 ISP = Interface Segregation Principle  
