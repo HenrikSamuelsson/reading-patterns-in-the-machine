@@ -107,8 +107,8 @@ The abstractions mentioned mentioned in the definition will in reality be interf
 An example of a interface definition set for an interface for a non volatile memory could be:
 
 ```C
-bool read(size_t startOffset, void* destination, size_t maxDestinationBytes)
-bool write(size_t startOffset, const void* source, size_t numSourceBytes)
+bool read(size_t startOffset, void* destination, size_t maxDestinationBytes);
+bool write(size_t startOffset, const void* source, size_t numSourceBytes);
 ```
 
 Note how the interface lacks all details about the actual underlying memory used and the mechanism used to communicate with the memory and hence satisfies the DIP.
