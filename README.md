@@ -96,6 +96,25 @@ The compiler will only partly help out in verification of the LSP by checking th
 > Definition: Interface Segregation Principle (ISP)  
 > > Clients should not be forced to depend upon interfaces that they do not use.
 
+### Dependency Inversion Principle
+
+> Definition: Dependency Inversion Principle (DIP)  
+> > (1) High-level modules should not depend on low-level modules. Both should depend on abstractions.  
+> > (2) Abstractions should not depend on details. Details should depend on abstractions.  
+
+The abstractions mentioned mentioned in the definition will in reality be interface definitions in a header file with few if any `#include` statements.
+
+An example of a interface definition set for an interface for a non volatile memory could be:
+
+```C
+bool read(size_t startOffset, void* destination, size_t maxDestinationBytes)
+bool write(size_t startOffset, const void* source, size_t numSourceBytes)
+```
+
+Note how the interface lacks all details about the actual underlying memory used and the mechanism used to communicate with the memory and hence satisfies the DIP.
+
+The upper application layer will use this interface and the lower layer will implement the interface. The lower layer will know details about the actual memory type used. Should the memory type need to be changed in the future so will only the code for this lower layer need to change and the upper application layer can be left as is. Another benefit is that the different layers can be developed and tested in isolation by different developers once the interface have been defined.
+
 ## Abbreviations
 
 CI = Continuos Integration  
