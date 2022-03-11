@@ -119,6 +119,12 @@ Note how the interface lacks all details about the actual underlying memory used
 
 The upper application layer will use this interface and the lower layer will implement the interface. The lower layer will know details about the actual memory type used. Should the memory type need to be changed in the future so will only the code for this lower layer need to change and the upper application layer can be left as is. Another benefit is that the different layers can be developed and tested in isolation by different developers once the interface have been defined.
 
+### Binding
+
+As a computer science term, data binding is the substitution of a real value in a program. An example is the substitution of symbolic addresses to certain variables or instructions.
+
+The binding can happen in different phases in the development process. Having a project structure that supports late time binding implies that the project structure is loosely coupled, which is desirable.
+
 ## Abbreviations
 
 CI = Continuos Integration  
