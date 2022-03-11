@@ -125,6 +125,17 @@ As a computer science term, data binding is the substitution of a real value in 
 
 The binding can happen in different phases in the development process. Having a project structure that supports late time binding implies that the project structure is loosely coupled, which is desirable.
 
+There are two main types of binding: static and dynamic. Static occurs before the program runs and dynamic occurs during program execution. Calls to virtual functions in C++ is an example of dynamic binding.
+
+Static binding can be broken down to three types depending on the time of the binding in the build process: source time, compile time, and link time.
+
+Source time binding are done while editing the code, for example by choosing header files to include or by having a certain preprocessor define in the code.
+
+Compile time binding are made during the compilation stage. This can be achieved using certain file paths for the linker. Or providing defines at compilation time overriding ifndef statements in the source code. Can here also use forward declarations and have the chose platform specific C/C++ files at compile time.
+
+Link time binding is maybe the most common way to control the build and is based on setting up one or many linker scripts that will control what gets into to the final build.
+
+
 ## Abbreviations
 
 CI = Continuos Integration  
