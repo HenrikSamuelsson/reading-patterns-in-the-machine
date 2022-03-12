@@ -135,8 +135,19 @@ Compile time binding are made during the compilation stage. This can be achieved
 
 Link time binding is maybe the most common way to control the build and is based on setting up one or many linker scripts that will control what gets into to the final build.
 
+### Chapter 3 Conclusion
 
-## Abbreviations
+PIM is a set of strategic best practices for embedded software development.
+
+The not so easy to remember abbreviation LSSSI summarizes the practices:
+
+- Layers - Break the software into modules (SRP)
+
+- Strategic - Think long term, tortoise beats the hare (OCP)
+
+## Appendix A - Abbreviations
+
+List of abbreviations used in the book and book notes.
 
 CI = Continuos Integration  
 CPU = Central Processing Unit  
