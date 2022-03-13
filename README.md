@@ -143,7 +143,13 @@ The not so easy to remember abbreviation LSSSI summarizes the practices:
 
 - Layers - Break the software into modules (SRP)
 
-- Strategic - Think long term, tortoise beats the hare (OCP)
+- Strategic - Think long term when designing and implementing, tortoise beats the hare (OCP)
+
+- Semantics - Clear interface definitions and implement the correctly all the way (LSP)
+
+- Skinny - Prefer many specific small interfaces over one interface (ISP)
+
+- Interfaces - Abstract interfaces is a great tool for acheiving a decoupled architecture (DIP)
 
 ## Appendix A - Abbreviations
 
