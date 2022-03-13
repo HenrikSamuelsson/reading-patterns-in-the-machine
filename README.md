@@ -2,9 +2,15 @@
 
 Notes and material related to reading the book Patterns in the Machine written by John T. Taylor and Wayne T. Taylor.
 
+## Resources
+
+I bought the book in PDF format from [Springer](https://link.springer.com/book/10.1007/978-1-4842-6440-9)
+
+The author John Taylor have published source code for the examples in the book at [GitHub](https://github.com/johnttaylor/pim)
+
 ## Chapter 1 Introduction
 
-The book as a whole is about software development for embedded systems, and the goal of the book is to present good strategies and ways of working in this field.
+The book as a whole is about software development for embedded systems, and the goal of the book is to present valid strategies and ways of working in this field.
 
 The complete package of practices and methodologies presented in the book is by the authors given the name Patterns In The Machine (PIM). Patterns can maybe be thought of as that the practices can, and should, be reused for every new project and the in the machine part refers to embedded systems platform.
 
