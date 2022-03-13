@@ -4,9 +4,11 @@ Notes and material related to reading the book Patterns in the Machine written b
 
 ## Resources
 
-I bought the book in PDF format from [Springer](https://link.springer.com/book/10.1007/978-1-4842-6440-9)
+I bought the book in PDF format from [Springer](https://link.springer.com/book/10.1007/978-1-4842-6440-9).
 
-The author John Taylor have published source code for the examples in the book at [GitHub](https://github.com/johnttaylor/pim)
+The author John Taylor have published source code for the examples in the book at [GitHub](https://github.com/johnttaylor/pim).
+
+Required hardware to run the projects [Adafruit Grand Central M4](https://www.digikey.se/en/products/detail/adafruit-industries-llc/4064/10230014).
 
 ## Chapter 1 Introduction
 
