@@ -135,6 +135,9 @@ Compile time binding are made during the compilation stage. This can be achieved
 
 Link time binding is maybe the most common way to control the build and is based on setting up one or many linker scripts that will control what gets into to the final build.
 
+## Chapter 4 Persistent Storage Detailed Design Example
+
+Detailed design deduced from requirements for two different projects is presented in this chapter. First example is about persistent storage and the second is about a thermostat.
 
 ## Abbreviations
 
