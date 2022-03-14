@@ -2,9 +2,17 @@
 
 Notes and material related to reading the book Patterns in the Machine written by John T. Taylor and Wayne T. Taylor.
 
+## Resources
+
+I bought the book in PDF format from [Springer](https://link.springer.com/book/10.1007/978-1-4842-6440-9).
+
+The author John Taylor have published source code for the examples in the book at [GitHub](https://github.com/johnttaylor/pim).
+
+Required hardware to run the projects [Adafruit Grand Central M4](https://www.digikey.se/en/products/detail/adafruit-industries-llc/4064/10230014).
+
 ## Chapter 1 Introduction
 
-The book as a whole is about software development for embedded systems, and the goal of the book is to present good strategies and ways of working in this field.
+The book as a whole is about software development for embedded systems, and the goal of the book is to present valid strategies and ways of working in this field.
 
 The complete package of practices and methodologies presented in the book is by the authors given the name Patterns In The Machine (PIM). Patterns can maybe be thought of as that the practices can, and should, be reused for every new project and the in the machine part refers to embedded systems platform.
 
@@ -135,11 +143,29 @@ Compile time binding are made during the compilation stage. This can be achieved
 
 Link time binding is maybe the most common way to control the build and is based on setting up one or many linker scripts that will control what gets into to the final build.
 
+### Conclusion
+
+PIM is a set of strategic best practices for embedded software development.
+
+The not so easy to remember abbreviation LSSSI summarizes the practices:
+
+- Layers - Break the software into modules (SRP)
+
+- Strategic - Think long term when designing and implementing, tortoise beats the hare (OCP)
+
+- Semantics - Clear interface definitions and implement the correctly all the way (LSP)
+
+- Skinny - Prefer many specific small interfaces over one interface (ISP)
+
+- Interfaces - Abstract interfaces is a great tool for achieving a decoupled architecture (DIP)
+
 ## Chapter 4 Persistent Storage Detailed Design Example
 
 Detailed design deduced from requirements for two different projects is presented in this chapter. First example is about persistent storage and the second is about a thermostat.
 
-## Abbreviations
+## Appendix A - Abbreviations
+
+List of abbreviations used in the book and book notes.
 
 CI = Continuos Integration  
 CPU = Central Processing Unit  
