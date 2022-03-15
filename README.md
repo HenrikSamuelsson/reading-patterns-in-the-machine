@@ -163,6 +163,12 @@ The not so easy to remember abbreviation LSSSI summarizes the practices:
 
 Detailed design deduced from requirements for two different projects is presented in this chapter. First example is about persistent storage and the second is about a thermostat.
 
+### Persistent Storage
+
+The platform in the persistent storage is based on a board with two components, a microcontroller and an external EEPROM.
+
+A set of requirements are introduced and a high-level design is presented that is based on the requirements. Then two different detailed design examples are introduced and discussed. First is an example on how not to do it, with one big monolithic detailed design and then another example using a more modular PIM-style detailed design.
+
 ## Appendix A - Abbreviations
 
 List of abbreviations used in the book and book notes.
@@ -170,6 +176,7 @@ List of abbreviations used in the book and book notes.
 CI = Continuos Integration  
 CPU = Central Processing Unit  
 DIP = Dependency Inversion Principle  
+EEPROM = Electrically Erasable Programmable Read-Only Memory
 FSM = Finite State Machine  
 HAL = Hardware Abstraction Layer
 IC = Integrated Circuit  
