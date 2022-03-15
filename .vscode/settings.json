@@ -1,8 +1,10 @@
 {
     "cSpell.words": [
+        "EEPROM",
         "ifndef",
         "Liskov",
         "LSSSI",
+        "microcontroller",
         "mutex"
     ]
 }
