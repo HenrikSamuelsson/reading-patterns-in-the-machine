@@ -10,6 +10,8 @@ The author John Taylor have published source code for the examples in the book a
 
 Required hardware to run the projects [Adafruit Grand Central M4](https://www.digikey.se/en/products/detail/adafruit-industries-llc/4064/10230014).
 
+A code generation tool mentioned in the book is [SinealoberRT](https://www.sinelabore.de/).
+
 ## Chapter 1 Introduction
 
 The book as a whole is about software development for embedded systems, and the goal of the book is to present valid strategies and ways of working in this field.
