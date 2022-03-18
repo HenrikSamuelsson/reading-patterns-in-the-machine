@@ -163,9 +163,9 @@ The not so easy to remember abbreviation LSSSI summarizes the practices:
 
 ## Chapter 4 Persistent Storage Detailed Design Example
 
-Requirements and detailed design for two different projects is presented in this chapter. First example is about persistent storage and the second is about a thermostat.
+Requirements and detailed design for two different projects is presented in this chapter. The focus is on functionality related to persistent storage meaning content in memory that survives a system power cycle. First example project is a bit of dummy project that is about persistent storage only and the second project is a larger, more real world, thermostat project.
 
-### Persistent Storage Example
+### Persistent Storage Example Project
 
 The platform in the persistent storage is based on a board with two components, a microcontroller and an external EEPROM.
 
@@ -174,6 +174,12 @@ A set of requirements are introduced and a high-level design is presented that i
 The main difference between the two designs is that the PIM-style includes additional interfaces that separates the layers. An upper layer uses the interface and the lower layer implements the interface.
 
 The PIM-style will actually require more code but provides by being simpler to test, easier to change if requirements or hardware changes, and possibility to develop the different parts by different team members when the interfaces have been designed.
+
+### Thermostat Project Persistent Storage Part
+
+The requirements related to persistent storage are presented. There are an total about ten requirements, and one example is:
+
+> The software shall default the user settings to factory defaults if corruption is detected in the values stored in persistent storage.
 
 ## Appendix A - Abbreviations
 
