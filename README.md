@@ -201,6 +201,7 @@ MCU = Micro Controller Unit
 OCP = Open Closed Principle  
 OSAL = Operating System Abstraction Layer  
 PIM = Patterns In the Machine  
+POST = Power On Self Test  
 SA = Software Architecture  
 SCM = Software Configuration Management  
 SDP = Software Development Plan  
